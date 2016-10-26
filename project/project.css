@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f2f2f2;
+    font-weight200;
+    font-size:13px;
+    color:#555;
+    line-height: 1.428576;
+}
+
+#section-topbar{
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 10000;
+    overflow:visible;
+    font:normal 16px;
+}
+
+#section-topbar a {
+    color:white;
+}
+
+#topbar-inner {
+    background: dimgray;
+    line-height: 0;
+    text-align: center;
+}
+
+#section-topbar ul#nav {
+    display:inline-block;
+    position: relative;
+    margin:0;
+    padding: 0;
+}
+
+#section-topbar ul#nav > li{
+    display: block;
+    float:left;
+    padding: 0;
+}
+
+#section-topbar ul#nav a {
+ display:block;
+ font: normal 11px/18px "Helvetica Neue", Arial, sans-serif;
+ text-decoration: none;
+ padding: 18px 20px 18px 20px;
+}
+
+#section-topbar ul#nav a:hover {
+    background: sienna;
+    text-decoration:none; 
+}
+
+#headerwrap {
+    background-image: url(nightstreet.jpg);
+    margin-top: 8px;
+    padding-top: 217px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height:400px;
+    width:100%;
+    background-size:100%;
+    background-size: cover;}
+
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+h2 {
+    font-size:1.4em;
+    text-align:center;
+    color:#f2f2f2;
+}
+
+h3 {
+    font-size: 2.54em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.25em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    text-align: center;
+    border:solid sandybrown 1px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.left-space {
+    padding-left:#CCC;
+    border:solid 2px sandybrown;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
